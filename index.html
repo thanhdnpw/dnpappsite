@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://dnpwater.vn/wp-content/uploads/2018/02/tong-the-cam-5-1400x600.png'); /* Đường dẫn tới hình nền */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    color: rgb(0, 156, 224);
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+        flex-direction: column;
+
+  }
+
+  .download-button {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #243468;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    max-width: 80%; /* Tối đa chiều rộng của nút */
+  }
+
+  .download-button:hover {
+    background-color: #1c2e4a;
+  }
+
+  .icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .download-button span {
+    flex-grow: 1;
+  }
+   @media (max-width: 600px) {
+    /* CSS cho màn hình có chiều rộng tối đa 600px */
+    .title {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .download-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+
+    .download-button img {
+      width: 20px;
+      height: 20px; 
+    } 
+    .buttons {
+          margin-bottom: 60%;
+      }
+  }
+</style>
+</head>
+<body>
+  <div class="title">Download Moblie</div>
+  <div class="buttons">
+    <a class="download-button" href="https://drive.google.com/file/d/1wComyv2g9xlljW_lnGdHAFIw773tjW89/view?usp=sharing"  target="_blank">
+      <img class="icon" src="https://seeklogo.com/images/A/android-logo-0B5063C0CA-seeklogo.com.png" alt="Android Icon"> Download Android
+    </a>
+  </div>
+</body>
+  
+<script>
+
+</script>
+
+    
+</html>
